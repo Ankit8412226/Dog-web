@@ -62,7 +62,7 @@ export function VideoShowcase() {
           </div>
 
           {/* Bottom Video Info Overlay */}
-          <div className="absolute bottom-6 left-6 right-6 flex flex-col sm:flex-row sm:items-end justify-between gap-4 text-white z-10">
+          <div className="absolute bottom-6 left-6 right-6 flex items-end justify-between gap-4 text-white z-10">
             <div className="space-y-1">
               <span className="text-[10px] uppercase tracking-widest text-stone-300 block font-sans">
                 Live Breeder Field Recording
@@ -71,16 +71,6 @@ export function VideoShowcase() {
                 Golden Retriever & German Shepherd Litters at Play
               </h3>
             </div>
-
-            <a
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-emerald-800 hover:bg-emerald-900 text-white font-semibold text-xs tracking-wider uppercase px-6 py-3 rounded-sm transition-colors shadow-sm"
-            >
-              <span>Request Live Video Call on WhatsApp</span>
-              <ArrowRight className="w-3.5 h-3.5" />
-            </a>
           </div>
 
         </div>
