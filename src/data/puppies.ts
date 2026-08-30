@@ -6,10 +6,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Milo",
     breed: "Maltipoo",
     location: "Available in Delhi NCR",
-    images: [
-      "https://images.unsplash.com/photo-1591769225440-811ad7d6eab2?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/maltipoo.jpg"],
     description: "Adorable, non-shedding Maltipoo puppy with teddy bear coat. Extremely affectionate, smart, and perfect for indoor families.",
     temperament: ["Affectionate", "Intelligent", "Hypoallergenic", "Playful"],
   },
@@ -18,10 +15,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Titan",
     breed: "French Mastiff",
     location: "Available in Gurgaon",
-    images: [
-      "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/french-mastiff.jpg"],
     description: "Imposing Dogue de Bordeaux (French Mastiff) with massive boning, muscular build, and a calm, loyal protection disposition.",
     temperament: ["Calm", "Courageous", "Loyal", "Protective"],
   },
@@ -30,10 +24,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Snowy",
     breed: "Spitz",
     location: "Available in Bangalore",
-    images: [
-      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/spitz.jpg"],
     description: "Fluffy white Spitz puppy with sharp ears, cheerful personality, and low maintenance coat. Highly adaptable.",
     temperament: ["Lively", "Alert", "Devoted", "Playful"],
   },
@@ -42,10 +33,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Brutus",
     breed: "Bullmastiff",
     location: "Available in Mumbai",
-    images: [
-      "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/bullmastiff.jpg"],
     description: "Powerful Bullmastiff puppy from champion bloodlines. Natural home guardian that is quiet, gentle, and fearless.",
     temperament: ["Gentle Giant", "Fearless", "Confident", "Quiet"],
   },
@@ -54,10 +42,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Shera",
     breed: "Gaddi Dog",
     location: "Available in Chandigarh",
-    images: [
-      "https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1589941013453-ec89f33b5e95?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/gaddi-dog.jpg"],
     description: "Authentic Gaddi Kutta (Himalayan Mastiff) puppy bred for mountain stamina, intelligence, and fiercely loyal guarding.",
     temperament: ["Loyal", "Sturdy", "Protective", "Alert"],
   },
@@ -66,10 +51,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Koko",
     breed: "Lhasa Apso",
     location: "Available in Pune",
-    images: [
-      "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/lhasa-apso.jpg"],
     description: "Classic Lhasa Apso puppy with flowing coat and noble Tibetan pedigree. Alert watchfulness with lap affection.",
     temperament: ["Playful", "Assertive", "Friendly", "Devoted"],
   },
@@ -78,10 +60,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Chico",
     breed: "Chihuahua",
     location: "Available in Hyderabad",
-    images: [
-      "https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1583511655826-05700d52f4d9?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/chihuahua.jpg"],
     description: "Ultra-compact Applehead Chihuahua puppy. Big personality in a tiny pocket size, ideal for apartment living.",
     temperament: ["Graceful", "Sassy", "Alert", "Loving"],
   },
@@ -90,10 +69,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Bernie",
     breed: "Saint Bernard",
     location: "Available in Shimla / Delhi",
-    images: [
-      "https://images.unsplash.com/photo-1534361960057-19889db9621e?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/saint-bernard.jpg"],
     description: "Gentle giant Saint Bernard puppy with heavy bone structure, plush coat, and exceptionally calm disposition.",
     temperament: ["Gentle", "Friendly", "Patient", "Quiet"],
   },
@@ -102,10 +78,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Bella",
     breed: "Welsh Corgi",
     location: "Available in Delhi NCR",
-    images: [
-      "https://images.unsplash.com/photo-1612536057832-2ff7ead7819c?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1537151632551-9a4867e4929d?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/welsh-corgi.jpg"],
     description: "Short-legged Pembroke Welsh Corgi puppy with bright fox face, expressive ears, and affectionate herding spirit.",
     temperament: ["Affectionate", "Smart", "Playful", "Alert"],
   },
@@ -114,10 +87,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Kiko",
     breed: "Shiba Inu",
     location: "Available in Mumbai",
-    images: [
-      "https://images.unsplash.com/photo-1583511655826-05700d52f4d9?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/shiba-inu.jpg"],
     description: "Alert, fox-like Japanese Shiba Inu puppy. Clean, independent, and spirited companion with plush coat.",
     temperament: ["Keen", "Alert", "Clean", "Confident"],
   },
@@ -126,10 +96,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Blanco",
     breed: "Dogo Argentino",
     location: "Available in Bangalore",
-    images: [
-      "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1567752881298-894bb81f9379?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/dogo-argentino.jpg"],
     description: "Athletic Dogo Argentino puppy bred for muscular agility, high guard focus, and loyal family bond.",
     temperament: ["Loyal", "Protective", "Athletic", "Friendly"],
   },
@@ -138,10 +105,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Rex",
     breed: "Rottweiler",
     location: "Available in Delhi NCR",
-    images: [
-      "https://images.unsplash.com/photo-1567752881298-894bb81f9379?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1589941013453-ec89f33b5e95?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/rottweiler.jpg"],
     description: "Heavy German blockyhead Rottweiler puppy from champion working lines. Confident, protective, and obedient.",
     temperament: ["Confident", "Devoted", "Alert", "Self-Assured"],
   },
@@ -150,10 +114,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Teddy",
     breed: "Cockapoo",
     location: "Available in Pune",
-    images: [
-      "https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1591769225440-811ad7d6eab2?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/cockapoo.jpg"],
     description: "Sweet Cocker Spaniel & Poodle cross. Hypoallergenic coat, gentle temperament, and high eagerness to please.",
     temperament: ["Affectionate", "Intelligent", "Social", "Gentle"],
   },
@@ -162,10 +123,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Khaidu",
     breed: "Tibetan Mastiff",
     location: "Available in Chandigarh",
-    images: [
-      "https://images.unsplash.com/photo-1589941013453-ec89f33b5e95?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/tibetan-mastiff.jpg"],
     description: "Legendary lion-maned Tibetan Mastiff puppy with massive bone structure, thick coat, and supreme guard instincts.",
     temperament: ["Noble", "Protective", "Independent", "Majestic"],
   },
@@ -174,10 +132,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Oliver",
     breed: "Basset Hound",
     location: "Available in Hyderabad",
-    images: [
-      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/basset-hound.jpg"],
     description: "Charming long-eared Basset Hound puppy with expressive droopy eyes, sweet disposition, and relaxed family demeanor.",
     temperament: ["Sweet-Tempered", "Patient", "Gentle", "Charming"],
   },
@@ -186,10 +141,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Duke",
     breed: "Great Dane",
     location: "Available in Delhi NCR",
-    images: [
-      "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/great-dane.jpg"],
     description: "Majestic Apollo of dogs. Great Dane puppy with giant stature, gentle soul, and quiet indoor patience.",
     temperament: ["Friendly", "Patient", "Dependable", "Gentle"],
   },
@@ -198,10 +150,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Puggy",
     breed: "Pug",
     location: "Available in Mumbai",
-    images: [
-      "https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1583511655826-05700d52f4d9?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/pug.jpg"],
     description: "Cute wrinkly-faced Pug puppy. Playful, loving clown of the dog world, great for all ages and apartment homes.",
     temperament: ["Charming", "Mischievous", "Loving", "Docile"],
   },
@@ -210,10 +159,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Phantom",
     breed: "Harlequin Great Dane",
     location: "Available in Bangalore",
-    images: [
-      "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/harlequin-great-dane.jpg"],
     description: "Rare Harlequin pattern Great Dane puppy. Striking torn-black patches over white body, champion lineage.",
     temperament: ["Noble", "Gentle", "Affectionate", "Majestic"],
   },
@@ -222,10 +168,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Snowball",
     breed: "Maltese",
     location: "Available in Delhi NCR",
-    images: [
-      "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1591769225440-811ad7d6eab2?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/maltese.jpg"],
     description: "Classic Maltese toy puppy with glamorous silky white coat, gentle soul, and hypoallergenic qualities.",
     temperament: ["Gentle", "Playful", "Charming", "Affectionate"],
   },
@@ -234,10 +177,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Buster",
     breed: "Yorkshire Terrier",
     location: "Available in Kolkata",
-    images: [
-      "https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/yorkshire-terrier.jpg"],
     description: "Feisty, affectionate Yorkie puppy with silky coat and compact structure. Great lap pet for apartment living.",
     temperament: ["Feisty", "Brave", "Affectionate", "Intelligent"],
   },
@@ -246,10 +186,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     name: "Pepe",
     breed: "Havanese",
     location: "Available in Chennai",
-    images: [
-      "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1591769225440-811ad7d6eab2?auto=format&fit=crop&q=80&w=1200"
-    ],
+    images: ["/images/breeds/havanese.jpg"],
     description: "Velvety Havanese puppy. Velcro companion dog known for high trainability, gentle temperament, and fluffy coat.",
     temperament: ["Outgoing", "Playful", "Gentle", "Intelligent"],
   },
@@ -259,147 +196,147 @@ export const POPULAR_BREEDS: BreedInfo[] = [
   {
     id: "maltipoo",
     name: "Maltipoo",
-    image: "https://images.unsplash.com/photo-1591769225440-811ad7d6eab2?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/maltipoo.jpg",
     temperament: "Affectionate, Intelligent, Hypoallergenic",
     description: "Charming teddy-bear companion with low shed curly coat. Perfect for indoors.",
   },
   {
     id: "french-mastiff",
     name: "French Mastiff",
-    image: "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/french-mastiff.jpg",
     temperament: "Calm, Courageous, Loyal",
     description: "Imposing Dogue de Bordeaux known for massive muscular presence and devoted protection.",
   },
   {
     id: "spitz",
     name: "Spitz",
-    image: "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/spitz.jpg",
     temperament: "Lively, Alert, Cheerful",
     description: "Fluffy snow-white companion popular for sharp intellect and energetic Indian home adaptability.",
   },
   {
     id: "bullmastiff",
     name: "Bullmastiff",
-    image: "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/bullmastiff.jpg",
     temperament: "Gentle Giant, Fearless, Quiet",
     description: "Noble home guardian with powerful muscular frame and quiet affection for children.",
   },
   {
     id: "gaddi-dog",
     name: "Gaddi Dog",
-    image: "https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/gaddi-dog.jpg",
     temperament: "Loyal, Sturdy, Fearless",
     description: "Authentic Himalayan Mastiff bred for mountain stamina and fierce territorial loyalty.",
   },
   {
     id: "lhasa-apso",
     name: "Lhasa Apso",
-    image: "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/lhasa-apso.jpg",
     temperament: "Assertive, Devoted, Charming",
     description: "Ancient Tibetan palace guardian featuring long silky coat and loyal watchful character.",
   },
   {
     id: "chihuahua",
     name: "Chihuahua",
-    image: "https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/chihuahua.jpg",
     temperament: "Sassy, Graceful, Devoted",
     description: "Tiny purse companion with bold confidence and deep attachment to owners.",
   },
   {
     id: "saint-bernard",
     name: "Saint Bernard",
-    image: "https://images.unsplash.com/photo-1534361960057-19889db9621e?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/saint-bernard.jpg",
     temperament: "Gentle Giant, Patient, Friendly",
     description: "Famous mountain rescue breed renowned for affectionate patience with young children.",
   },
   {
     id: "welsh-corgi",
     name: "Welsh Corgi",
-    image: "https://images.unsplash.com/photo-1612536057832-2ff7ead7819c?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/welsh-corgi.jpg",
     temperament: "Affectionate, Smart, Playful",
     description: "Iconic short-legged Pembroke Corgi with expressive fox face and cheerful herding spirit.",
   },
   {
     id: "shiba-inu",
     name: "Shiba Inu",
-    image: "https://images.unsplash.com/photo-1583511655826-05700d52f4d9?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/shiba-inu.jpg",
     temperament: "Keen, Alert, Independent",
     description: "Spirited Japanese breed with plush coat, curled tail, and proud cat-like cleanliness.",
   },
   {
     id: "dogo-argentino",
     name: "Dogo Argentino",
-    image: "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/dogo-argentino.jpg",
     temperament: "Athletic, Loyal, Guardian",
     description: "Muscular all-white Argentine guardian renowned for athletic power and family loyalty.",
   },
   {
     id: "rottweiler",
     name: "Rottweiler",
-    image: "https://images.unsplash.com/photo-1567752881298-894bb81f9379?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/rottweiler.jpg",
     temperament: "Confident, Devoted, Obedient",
     description: "Classic German working breed with heavy blocky head and protective family instinct.",
   },
   {
     id: "cockapoo",
     name: "Cockapoo",
-    image: "https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/cockapoo.jpg",
     temperament: "Affectionate, Social, Hypoallergenic",
     description: "Popular Spaniel-Poodle hybrid loved for low allergen coat and cheerful social personality.",
   },
   {
     id: "tibetan-mastiff",
     name: "Tibetan Mastiff",
-    image: "https://images.unsplash.com/photo-1589941013453-ec89f33b5e95?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/tibetan-mastiff.jpg",
     temperament: "Noble, Protective, Majestic",
     description: "Lion-maned Tibetan mountain guardian with thick coat and commanding presence.",
   },
   {
     id: "basset-hound",
     name: "Basset Hound",
-    image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/basset-hound.jpg",
     temperament: "Gentle, Patient, Charming",
     description: "Charming long-eared scent hound with sweet disposition and easygoing family nature.",
   },
   {
     id: "great-dane",
     name: "Great Dane",
-    image: "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/great-dane.jpg",
     temperament: "Gentle Giant, Friendly, Patient",
     description: "Towering gentle giant with regal posture, quiet temperament, and deep affection for home.",
   },
   {
     id: "pug",
     name: "Pug",
-    image: "https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/pug.jpg",
     temperament: "Charming, Loving, Docile",
     description: "Compact wrinkly-faced companion puppy with comical charm and deep love for lap cuddles.",
   },
   {
     id: "harlequin-great-dane",
     name: "Harlequin Great Dane",
-    image: "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/harlequin-great-dane.jpg",
     temperament: "Noble, Gentle, Striking",
     description: "Rare white & black torn-patch coat Great Dane puppy from European champion lines.",
   },
   {
     id: "maltese",
     name: "Maltese",
-    image: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/maltese.jpg",
     temperament: "Gentle, Playful, Silky",
     description: "Glamorous toy lap dog with silky white coat and gentle hypoallergenic temperament.",
   },
   {
     id: "yorkshire-terrier",
     name: "Yorkshire Terrier",
-    image: "https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/yorkshire-terrier.jpg",
     temperament: "Feisty, Brave, Affectionate",
     description: "Spirited Yorkie puppy with glossy tan coat and energetic indoor personality.",
   },
   {
     id: "havanese",
     name: "Havanese",
-    image: "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?auto=format&fit=crop&q=80&w=800",
+    image: "/images/breeds/havanese.jpg",
     temperament: "Outgoing, Playful, Gentle",
     description: "Velvet silk-coated Cuban companion puppy renowned for cheerful intelligence and affection.",
   },
@@ -415,7 +352,7 @@ export const TESTIMONIALS: Testimonial[] = [
     dogName: "Milo",
     dogBreed: "Maltipoo",
     authorAvatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200",
-    dogImage: "https://images.unsplash.com/photo-1591769225440-811ad7d6eab2?auto=format&fit=crop&q=80&w=400",
+    dogImage: "/images/breeds/maltipoo.jpg",
     date: "2 Weeks Ago",
   },
   {
@@ -427,7 +364,7 @@ export const TESTIMONIALS: Testimonial[] = [
     dogName: "Titan",
     dogBreed: "French Mastiff",
     authorAvatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
-    dogImage: "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&q=80&w=400",
+    dogImage: "/images/breeds/french-mastiff.jpg",
     date: "1 Month Ago",
   },
   {
@@ -439,7 +376,7 @@ export const TESTIMONIALS: Testimonial[] = [
     dogName: "Snowy",
     dogBreed: "Spitz",
     authorAvatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200",
-    dogImage: "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=400",
+    dogImage: "/images/breeds/spitz.jpg",
     date: "3 Weeks Ago",
   },
 ];
