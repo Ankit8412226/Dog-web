@@ -48,7 +48,7 @@ export function FeaturedPuppies() {
                   {/* Large Premium Image */}
                   <div
                     onClick={() => handleOpenDetail(puppy)}
-                    className="relative aspect-[4/5] w-full overflow-hidden bg-stone-100 mb-4 cursor-pointer rounded-sm"
+                    className="relative aspect-[4/3] sm:aspect-square w-full overflow-hidden bg-stone-100 mb-4 cursor-pointer rounded-sm"
                   >
                     <Image
                       src={puppy.images[0]}
