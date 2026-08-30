@@ -131,7 +131,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     category: "large",
     age: "3 Months",
     gender: "Male",
-    color: "Brindle & Black Mask",
+    color: "Fawn & Black Muzzle",
     weight: "12.5 kg",
     location: "Available in Mumbai",
     price: 0,
@@ -387,7 +387,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
       "https://images.unsplash.com/photo-1583511655826-05700d52f4d9?auto=format&fit=crop&q=80&w=1200",
       "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?auto=format&fit=crop&q=80&w=1200"
     ],
-    description: "Alert, fox-like Japanese Shiba Inu puppy. Clean, independent, and spirited companion with plush plush double coat.",
+    description: "Alert, fox-like Japanese Shiba Inu puppy. Clean, independent, and spirited companion with plush double coat.",
     temperament: ["Keen", "Alert", "Clean", "Confident"],
     healthStatus: {
       vaccinated: true,
