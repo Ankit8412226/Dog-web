@@ -29,7 +29,7 @@ export function ContactSection() {
               WhatsApp & Mobile
             </span>
             <div className="font-serif font-semibold text-xl text-stone-950">
-              +91 81784 13047
+              +91 76784 94050
             </div>
             <div className="text-xs text-stone-500 font-sans">
               Instant responses & video tours

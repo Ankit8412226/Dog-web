@@ -1,5 +1,5 @@
 // Configurable WhatsApp Phone Number
-export const WHATSAPP_NUMBER = "918178413047";
+export const WHATSAPP_NUMBER = "917678494050";
 
 /**
  * Generate a valid WhatsApp API link with encoded prefilled message text.
