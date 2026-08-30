@@ -49,7 +49,7 @@ export function BreedShowcase() {
                       {breed.name}
                     </h3>
                     <p className="text-xs text-stone-300 font-sans tracking-wide mt-0.5">
-                      {breed.availableCount} Puppies Available · {breed.size} Breed
+                      {breed.temperament}
                     </p>
                   </div>
                   <span className="text-xs uppercase tracking-wider font-semibold text-amber-300 underline underline-offset-4 opacity-90 group-hover:opacity-100">

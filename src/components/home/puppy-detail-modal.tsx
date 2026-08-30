@@ -33,15 +33,9 @@ export function PuppyDetailModal({ puppy, isOpen, onClose }: PuppyDetailModalPro
             <DialogTitle className="text-3xl sm:text-4xl font-serif font-normal text-stone-950">
               {puppy.name}
             </DialogTitle>
-            <div className="flex items-center gap-3 text-xs text-stone-500 font-sans pt-1">
-              <span className="flex items-center gap-1 text-stone-700 font-medium">
-                <MapPin className="w-3.5 h-3.5 text-stone-500" />
-                {puppy.location}
-              </span>
-              <span>•</span>
-              <span>{puppy.age}</span>
-              <span>•</span>
-              <span>{puppy.gender}</span>
+            <div className="flex items-center gap-2 text-xs text-stone-500 font-sans pt-1">
+              <MapPin className="w-3.5 h-3.5 text-stone-500" />
+              <span className="font-medium text-stone-700">{puppy.location}</span>
             </div>
           </div>
         </DialogHeader>

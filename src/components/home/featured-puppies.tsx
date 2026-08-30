@@ -90,10 +90,6 @@ export function FeaturedPuppies() {
                     </div>
 
                     <div className="text-xs text-stone-500 font-sans">
-                      {puppy.age} · {puppy.gender}
-                    </div>
-
-                    <div className="text-xs text-stone-500 font-sans">
                       {puppy.location}
                     </div>
                   </div>
