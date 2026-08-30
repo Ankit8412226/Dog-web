@@ -86,9 +86,9 @@ export function Hero() {
                 <div className="bg-white/90 backdrop-blur-md px-4 py-2.5 text-stone-900 border border-stone-200">
                   <span className="font-serif italic text-xs block flex items-center gap-1.5">
                     <Video className="w-3.5 h-3.5 text-emerald-800" />
-                    <span>Live Puppy Video Feed — Bella</span>
+                    <span>Live Puppy Video Feed</span>
                   </span>
-                  <span className="text-[10px] font-sans uppercase tracking-widest text-stone-500">Golden Retriever • Delhi</span>
+                  <span className="text-[10px] font-sans uppercase tracking-widest text-stone-500">Golden Retriever</span>
                 </div>
               </div>
 

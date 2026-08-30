@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { FEATURED_PUPPIES } from "@/data/puppies";
 import { Puppy } from "@/types/puppy";
-import { getPuppyEnquiryUrl } from "@/lib/whatsapp";
+import { getBreedEnquiryUrl } from "@/lib/whatsapp";
 import { PuppyDetailModal } from "@/components/home/puppy-detail-modal";
 import { ArrowRight, Eye } from "lucide-react";
 
@@ -24,20 +24,20 @@ export function FeaturedPuppies() {
         {/* Section Header */}
         <div className="max-w-3xl mb-16 space-y-3">
           <span className="text-[11px] font-semibold tracking-[0.25em] text-stone-500 uppercase font-sans">
-            Available Puppies
+            Available Breeds
           </span>
           <h2 className="text-3xl sm:text-5xl font-serif font-normal text-stone-950">
-            Meet your future best friend.
+            Explore Dog Breeds & Puppies
           </h2>
           <p className="text-stone-600 text-sm sm:text-base leading-relaxed font-sans">
-            Explore our currently available puppies and get in touch directly for complete details.
+            Browse purebred puppy litters and get in touch directly on WhatsApp for photos and video calls.
           </p>
         </div>
 
         {/* Puppies Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {FEATURED_PUPPIES.map((puppy) => {
-            const whatsappUrl = getPuppyEnquiryUrl(puppy.name, puppy.breed);
+            const whatsappUrl = getBreedEnquiryUrl(puppy.breed);
 
             return (
               <div
@@ -52,7 +52,7 @@ export function FeaturedPuppies() {
                   >
                     <Image
                       src={puppy.images[0]}
-                      alt={`${puppy.name} - ${puppy.breed}`}
+                      alt={puppy.breed}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
@@ -68,29 +68,21 @@ export function FeaturedPuppies() {
                   </div>
 
                   {/* Information Below Image */}
-                  <div className="space-y-1.5">
-                    <div className="flex items-baseline justify-between">
+                  <div className="space-y-1">
+                    <div className="flex items-center justify-between">
                       <h3
                         onClick={() => handleOpenDetail(puppy)}
                         className="font-serif font-normal text-xl text-stone-950 group-hover:underline cursor-pointer"
                       >
-                        {puppy.name}
+                        {puppy.breed}
                       </h3>
                       <button
                         type="button"
                         onClick={() => handleOpenDetail(puppy)}
-                        className="text-[11px] font-semibold uppercase tracking-wider text-stone-500 hover:text-stone-950"
+                        className="text-[11px] font-semibold uppercase tracking-wider text-stone-400 hover:text-stone-950"
                       >
                         Details
                       </button>
-                    </div>
-
-                    <div className="text-xs font-semibold uppercase tracking-wider text-stone-900 font-sans">
-                      {puppy.breed}
-                    </div>
-
-                    <div className="text-xs text-stone-500 font-sans">
-                      {puppy.location}
                     </div>
                   </div>
                 </div>
@@ -111,7 +103,7 @@ export function FeaturedPuppies() {
                     rel="noopener noreferrer"
                     className="text-xs font-semibold tracking-wider text-emerald-800 hover:text-emerald-950 flex items-center gap-1 group/link"
                   >
-                    <span>Ask About {puppy.name}</span>
+                    <span>Ask About Breed</span>
                     <ArrowRight className="w-3.5 h-3.5 text-emerald-700 group-hover/link:translate-x-0.5 transition-transform" />
                   </a>
                 </div>

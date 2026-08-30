@@ -3,9 +3,9 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Puppy } from "@/types/puppy";
-import { getPuppyEnquiryUrl } from "@/lib/whatsapp";
+import { getBreedEnquiryUrl } from "@/lib/whatsapp";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import { ArrowRight, CheckCircle2, ShieldCheck, MapPin } from "lucide-react";
+import { ArrowRight, CheckCircle2, ShieldCheck } from "lucide-react";
 
 interface PuppyDetailModalProps {
   puppy: Puppy | null;
@@ -18,7 +18,7 @@ export function PuppyDetailModal({ puppy, isOpen, onClose }: PuppyDetailModalPro
 
   if (!puppy) return null;
 
-  const whatsappUrl = getPuppyEnquiryUrl(puppy.name, puppy.breed);
+  const whatsappUrl = getBreedEnquiryUrl(puppy.breed);
 
   return (
     <Dialog open={isOpen} onOpenChange={(open) => !open && onClose()}>
@@ -28,15 +28,11 @@ export function PuppyDetailModal({ puppy, isOpen, onClose }: PuppyDetailModalPro
         <DialogHeader className="text-left border-b border-stone-100 pb-5">
           <div className="flex flex-col space-y-1">
             <span className="text-[11px] font-semibold uppercase tracking-[0.25em] text-stone-500 font-sans">
-              {puppy.breed}
+              Breed Showcase
             </span>
             <DialogTitle className="text-3xl sm:text-4xl font-serif font-normal text-stone-950">
-              {puppy.name}
+              {puppy.breed}
             </DialogTitle>
-            <div className="flex items-center gap-2 text-xs text-stone-500 font-sans pt-1">
-              <MapPin className="w-3.5 h-3.5 text-stone-500" />
-              <span className="font-medium text-stone-700">{puppy.location}</span>
-            </div>
           </div>
         </DialogHeader>
 
@@ -48,7 +44,7 @@ export function PuppyDetailModal({ puppy, isOpen, onClose }: PuppyDetailModalPro
             <div className="relative aspect-[4/3] w-full rounded-sm overflow-hidden bg-stone-100 border border-stone-200 shadow-sm">
               <Image
                 src={puppy.images[selectedImage] || puppy.images[0]}
-                alt={puppy.name}
+                alt={puppy.breed}
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 500px"
@@ -66,7 +62,7 @@ export function PuppyDetailModal({ puppy, isOpen, onClose }: PuppyDetailModalPro
                       selectedImage === idx ? "border-stone-950 scale-105" : "border-stone-200 opacity-60 hover:opacity-100"
                     }`}
                   >
-                    <Image src={img} alt={`${puppy.name} thumbnail ${idx}`} fill className="object-cover" />
+                    <Image src={img} alt={`${puppy.breed} thumbnail ${idx}`} fill className="object-cover" />
                   </button>
                 ))}
               </div>
@@ -79,7 +75,7 @@ export function PuppyDetailModal({ puppy, isOpen, onClose }: PuppyDetailModalPro
             <div className="space-y-5 text-xs font-sans text-stone-600">
               <div>
                 <h4 className="text-[10px] font-semibold uppercase tracking-[0.2em] text-stone-400 mb-2">
-                  About {puppy.name}
+                  About {puppy.breed}
                 </h4>
                 <p className="text-stone-700 leading-relaxed text-sm">
                   {puppy.description}
@@ -102,7 +98,7 @@ export function PuppyDetailModal({ puppy, isOpen, onClose }: PuppyDetailModalPro
               <div className="bg-stone-50 border border-stone-200 p-4 rounded-sm space-y-2">
                 <h4 className="font-semibold text-stone-900 text-xs flex items-center gap-1.5">
                   <ShieldCheck className="w-4 h-4 text-emerald-700" />
-                  <span>Veterinary Health Records</span>
+                  <span>Veterinary Health Clearance</span>
                 </h4>
                 <div className="space-y-1 text-stone-600 text-xs">
                   <div className="flex items-center gap-1.5">
@@ -111,11 +107,11 @@ export function PuppyDetailModal({ puppy, isOpen, onClose }: PuppyDetailModalPro
                   </div>
                   <div className="flex items-center gap-1.5">
                     <CheckCircle2 className="w-3.5 h-3.5 text-emerald-700 shrink-0" />
-                    <span>15-Point Vet Clearance Certificate</span>
+                    <span>15-Point Vet Health Clearance</span>
                   </div>
                   <div className="flex items-center gap-1.5">
                     <CheckCircle2 className="w-3.5 h-3.5 text-emerald-700 shrink-0" />
-                    <span>12-Month Congenital Health Guarantee</span>
+                    <span>Written Health Guarantee</span>
                   </div>
                 </div>
               </div>
@@ -129,7 +125,7 @@ export function PuppyDetailModal({ puppy, isOpen, onClose }: PuppyDetailModalPro
                 rel="noopener noreferrer"
                 className="w-full bg-emerald-800 hover:bg-emerald-900 text-white font-semibold text-xs tracking-wider uppercase py-4 px-5 rounded-sm flex items-center justify-center gap-2 transition-colors shadow-sm text-center"
               >
-                <span>Ask About {puppy.name} on WhatsApp</span>
+                <span>Enquire About {puppy.breed} on WhatsApp</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>
