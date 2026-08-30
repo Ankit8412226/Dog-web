@@ -15,20 +15,20 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "PAWS & HERITAGE | Fine Canine Marketplace",
+  title: "PUPPY CLUB | Premium Canine Marketplace",
   description: "An editorial marketplace connecting discerning families with health-certified, ethically bred purebred puppies.",
   keywords: [
+    "puppy club",
     "ethical dog marketplace",
     "golden retriever puppies",
     "purebred puppies",
-    "certified dog breeders",
-    "paws and heritage"
+    "certified dog breeders"
   ],
   openGraph: {
-    title: "PAWS & HERITAGE | Fine Canine Marketplace",
+    title: "PUPPY CLUB | Premium Canine Marketplace",
     description: "An editorial marketplace connecting discerning families with health-certified, ethically bred purebred puppies.",
-    url: "https://pawsheritage.com",
-    siteName: "PAWS & HERITAGE",
+    url: "https://puppyclub.in",
+    siteName: "PUPPY CLUB",
     images: [
       {
         url: "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&q=80&w=1200",

@@ -61,7 +61,6 @@ export function Hero() {
                 muted={isMuted}
                 playsInline
                 className="w-full h-full object-cover"
-                poster="/images/hero-dog.png"
               >
                 <source src="/videos/hero-puppy.mp4" type="video/mp4" />
                 <source src="/videos/24541-343454486_medium.mp4" type="video/mp4" />

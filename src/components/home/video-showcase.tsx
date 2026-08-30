@@ -36,7 +36,6 @@ export function VideoShowcase() {
             muted={isMuted}
             playsInline
             className="w-full h-full object-cover"
-            poster="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&q=80&w=1600"
           >
             <source src="/videos/hero-puppy.mp4" type="video/mp4" />
             <source src="/videos/24541-343454486_medium.mp4" type="video/mp4" />

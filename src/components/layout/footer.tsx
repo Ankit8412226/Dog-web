@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Logo } from "@/components/ui/logo";
 import { getGeneralEnquiryUrl } from "@/lib/whatsapp";
 import { ArrowRight } from "lucide-react";
 
@@ -14,12 +15,8 @@ export function Footer() {
           
           {/* Brand Info */}
           <div className="space-y-4">
-            <Link href="/" className="inline-block">
-              <span className="font-serif font-bold text-xl tracking-[0.15em] text-stone-950 uppercase">
-                Paws & Heritage
-              </span>
-            </Link>
-            <p className="text-stone-600 text-xs leading-relaxed max-w-xs font-sans">
+            <Logo />
+            <p className="text-stone-600 text-xs leading-relaxed max-w-xs font-sans pt-1">
               Connecting caring families with health-certified, ethically bred purebred puppies from verified responsible breeders.
             </p>
           </div>
@@ -58,6 +55,7 @@ export function Footer() {
               Direct Contact
             </h4>
             <div className="space-y-3 font-sans text-xs text-stone-700">
+              <p className="font-semibold text-stone-900">+91 81784 13047</p>
               <p>Message us anytime for quick photos, video calls, and puppy availability.</p>
               <a
                 href={whatsappUrl}
@@ -75,7 +73,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-stone-500 font-sans">
-          <p>© {new Date().getFullYear()} Paws & Heritage Fine Canine Ltd. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Puppy Club India. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <a href="#" className="hover:text-stone-900 transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-stone-900 transition-colors">Terms of Service</a>

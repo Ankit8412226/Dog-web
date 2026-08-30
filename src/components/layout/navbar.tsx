@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { getGeneralEnquiryUrl } from "@/lib/whatsapp";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
+import { Logo } from "@/components/ui/logo";
 import { Menu, ArrowRight } from "lucide-react";
 
 export function Navbar() {
@@ -23,11 +24,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 h-20 flex items-center justify-between">
         
         {/* Brand Logo */}
-        <Link href="/" className="flex items-center gap-2 group">
-          <span className="font-serif font-bold text-xl tracking-[0.15em] text-stone-950 uppercase group-hover:text-stone-700 transition-colors">
-            Paws & Heritage
-          </span>
-        </Link>
+        <Logo />
 
         {/* Desktop Navigation Links */}
         <nav className="hidden md:flex items-center gap-8">
@@ -76,7 +73,7 @@ export function Navbar() {
               <div>
                 <SheetHeader className="text-left mb-8 border-b border-stone-100 pb-4">
                   <SheetTitle className="font-serif text-lg tracking-widest uppercase text-stone-950">
-                    Paws & Heritage
+                    Puppy Club
                   </SheetTitle>
                 </SheetHeader>
 

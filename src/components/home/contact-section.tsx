@@ -26,10 +26,10 @@ export function ContactSection() {
           
           <div className="space-y-1">
             <span className="text-[10px] font-semibold uppercase tracking-widest text-stone-400 block font-sans">
-              Primary Channel
+              WhatsApp & Mobile
             </span>
             <div className="font-serif font-semibold text-xl text-stone-950">
-              WhatsApp Chat
+              +91 81784 13047
             </div>
             <div className="text-xs text-stone-500 font-sans">
               Instant responses & video tours
