@@ -32,7 +32,7 @@ export function ContactSection() {
               +91 76784 94050
             </div>
             <div className="text-xs text-stone-500 font-sans">
-              Instant responses & video tours
+              Instant responses
             </div>
           </div>
 

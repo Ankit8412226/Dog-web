@@ -1,12 +1,9 @@
 "use client";
 
-import { useState } from "react";
-import Image from "next/image";
 import { getGeneralEnquiryUrl } from "@/lib/whatsapp";
-import { ArrowRight, Volume2, VolumeX, Video } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export function Hero() {
-  const [isMuted, setIsMuted] = useState(true);
   const whatsappUrl = getGeneralEnquiryUrl();
 
   return (
@@ -51,46 +48,20 @@ export function Hero() {
 
           {/* Right Photographic & Live Video Block */}
           <div className="lg:col-span-7 relative">
-            <div className="relative aspect-[4/3] sm:aspect-[16/11] w-full rounded-sm overflow-hidden bg-stone-950 shadow-md border border-stone-200 group">
+            <div className="relative aspect-[4/3] sm:aspect-[16/11] w-full rounded-sm overflow-hidden bg-stone-950 shadow-md border border-stone-200">
               
               {/* Autoplay Local High-Definition Video */}
               <video
                 id="hero-puppy-video"
                 autoPlay
                 loop
-                muted={isMuted}
+                muted
                 playsInline
                 className="w-full h-full object-cover"
               >
                 <source src="/videos/hero-puppy.mp4" type="video/mp4" />
                 <source src="/videos/24541-343454486_medium.mp4" type="video/mp4" />
               </video>
-
-              {/* Top Mute Control Button */}
-              <button
-                onClick={() => {
-                  const el = document.getElementById("hero-puppy-video") as HTMLVideoElement;
-                  if (el) {
-                    el.muted = !isMuted;
-                    setIsMuted(!isMuted);
-                  }
-                }}
-                className="absolute top-4 right-4 z-10 p-2.5 rounded-full bg-white/90 hover:bg-white text-stone-900 backdrop-blur-md transition-colors shadow-sm"
-                title={isMuted ? "Unmute Video" : "Mute Video"}
-              >
-                {isMuted ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
-              </button>
-
-              {/* Bottom Video Label Overlay */}
-              <div className="absolute bottom-6 left-6 right-6 flex items-center justify-between z-10">
-                <div className="bg-white/90 backdrop-blur-md px-4 py-2.5 text-stone-900 border border-stone-200">
-                  <span className="font-serif italic text-xs block flex items-center gap-1.5">
-                    <Video className="w-3.5 h-3.5 text-emerald-800" />
-                    <span>Live Puppy Video Feed</span>
-                  </span>
-                  <span className="text-[10px] font-sans uppercase tracking-widest text-stone-500">Golden Retriever</span>
-                </div>
-              </div>
 
             </div>
           </div>

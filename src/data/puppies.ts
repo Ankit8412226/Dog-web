@@ -278,7 +278,7 @@ export const TESTIMONIALS: Testimonial[] = [
     author: "Rohan & Priya Sharma",
     location: "Delhi NCR",
     rating: 5,
-    comment: "Connecting on WhatsApp with Ambey (+91 76784 94050) was so direct and reassuring. Vaccination records and health papers arrived with our puppy.",
+    comment: "Connecting on WhatsApp with Dhruvika (+91 76784 94050) was so direct and reassuring. Vaccination records and health papers arrived with our puppy.",
     dogName: "Black German Shepherd",
     dogBreed: "Black German Shepherd",
     authorAvatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200",

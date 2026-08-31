@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "PUPPY CLUB | Premium Canine Marketplace",
-    description: "An editorial marketplace connecting discerning families with health-certified, ethically bred purebred puppies.",
+    description: "Fill your home with unconditional love and happiness. Discover healthy, well-bred puppies for sale from trusted dog breeders, including Golden Retrievers, Toy Poodles, and more.",
     url: "https://puppyclub.in",
     siteName: "PUPPY CLUB",
     images: [
