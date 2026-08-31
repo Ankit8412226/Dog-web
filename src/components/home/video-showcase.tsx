@@ -1,7 +1,5 @@
 "use client";
 
-import { Video } from "lucide-react";
-
 export function VideoShowcase() {
   return (
     <section className="py-24 bg-white text-stone-900 border-b border-stone-200">
@@ -9,10 +7,6 @@ export function VideoShowcase() {
         
         {/* Section Header */}
         <div className="max-w-3xl mb-12 space-y-3">
-          <span className="text-[11px] font-semibold tracking-[0.25em] text-stone-500 uppercase font-sans flex items-center gap-2">
-            <Video className="w-3.5 h-3.5 text-stone-700" />
-            <span>Live HD Video Verification</span>
-          </span>
           <h2 className="text-3xl sm:text-5xl font-serif font-normal text-stone-950">
             Observe Litter Health & Vitality in Motion
           </h2>
