@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "PUPPY CLUB",
     images: [
       {
-        url: "/images/breeds/golden-retriever.jpg",
+        url: "/images/dog_images/golden_retriever.jpeg",
         width: 1200,
         height: 630,
         alt: "Golden Retriever puppy",

@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
+import { FloatingContactButtons } from "@/components/layout/floating-contact-buttons";
 import { Hero } from "@/components/home/hero";
 import { FeaturedPuppies } from "@/components/home/featured-puppies";
 import { VideoShowcase } from "@/components/home/video-showcase";
@@ -30,6 +31,7 @@ export default function Home() {
         <FinalCTA />
       </main>
       <Footer />
+      <FloatingContactButtons />
     </div>
   );
 }
