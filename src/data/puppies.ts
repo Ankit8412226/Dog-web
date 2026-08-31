@@ -370,15 +370,7 @@ export const FEATURED_PUPPIES: Puppy[] = [
     description: "Feisty, affectionate Yorkie puppy with silky coat and compact structure. Great lap pet for apartment living.",
     temperament: ["Feisty", "Brave", "Affectionate", "Intelligent"],
   },
-  {
-    id: "havanese",
-    name: "Havanese",
-    breed: "Havanese",
-    location: "Available in India",
-    images: ["/images/breeds/havanese.jpg"],
-    description: "Velvety Havanese puppy. Velcro companion dog known for high trainability, gentle temperament, and fluffy coat.",
-    temperament: ["Outgoing", "Playful", "Gentle", "Intelligent"],
-  },
+
 ];
 
 export const POPULAR_BREEDS: BreedInfo[] = FEATURED_PUPPIES.map((p) => ({
