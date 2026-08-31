@@ -3,7 +3,6 @@ import { Footer } from "@/components/layout/footer";
 import { Hero } from "@/components/home/hero";
 import { FeaturedPuppies } from "@/components/home/featured-puppies";
 import { VideoShowcase } from "@/components/home/video-showcase";
-import { BreedShowcase } from "@/components/home/breed-showcase";
 import { LifestyleGuide } from "@/components/home/lifestyle-guide";
 import { HowItWorks } from "@/components/home/how-it-works";
 import { TrustSection } from "@/components/home/trust-section";
@@ -21,7 +20,6 @@ export default function Home() {
         <Hero />
         <FeaturedPuppies />
         <VideoShowcase />
-        <BreedShowcase />
         <LifestyleGuide />
         <HowItWorks />
         <TrustSection />

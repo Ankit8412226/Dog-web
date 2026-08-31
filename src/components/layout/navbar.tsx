@@ -12,7 +12,7 @@ export function Navbar() {
 
   const navLinks = [
     { label: "Puppies", href: "#featured-puppies" },
-    { label: "Breeds", href: "#breeds" },
+    { label: "Breeds", href: "#featured-puppies" },
     { label: "About Us", href: "#why-choose-us" },
     { label: "Contact", href: "#contact" },
   ];
