@@ -14,8 +14,8 @@ export function Hero() {
           {/* Left Text Content */}
           <div className="lg:col-span-5 flex flex-col justify-center space-y-6 text-left">
             <div className="inline-flex items-center gap-2 text-[11px] font-semibold tracking-[0.25em] text-stone-500 uppercase font-sans">
-              <span className="w-2 h-2 rounded-full bg-emerald-700 animate-pulse"></span>
-              <span>Live Litter Video Available</span>
+             {/*<span className="w-2 h-2 rounded-full bg-emerald-700 animate-pulse"></span>*/}
+             
             </div>
 
             <h1 className="text-4xl sm:text-6xl font-serif font-normal text-stone-950 tracking-tight leading-[1.08]">
@@ -23,7 +23,7 @@ export function Hero() {
             </h1>
 
             <p className="text-stone-600 text-base leading-relaxed font-sans max-w-md">
-              Explore carefully raised puppies and watch live HD video tours of their healthy living environment.
+              Dogs for sale in Delhi Puppy Club was a thought which became reality a decade back where in the founders of Puppyclub decided to make sure that the dogs get what they really deserves, Our aim is to make sure that the dogs go in safe and caring hands and they have been trying to find out different ways to make their life comfortable, happy, and healthy, We have been working with many people in different parts of the country to make sure the standard of the dog’s life is uplifted and they get the treatment they are really entitled for.
             </p>
 
             <div className="pt-2 flex flex-col sm:flex-row items-start sm:items-center gap-5">
