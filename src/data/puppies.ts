@@ -290,7 +290,7 @@ export const TESTIMONIALS: Testimonial[] = [
     author: "Vikram Sengupta",
     location: "Gurgaon",
     rating: 5,
-    comment: "The Puppy Club team arranged a live video call over WhatsApp where I could observe our Toy Pom puppy playing. Door-step transport was smooth.",
+    comment: "The Puppy Club team arranged direct consultations and photo updates over WhatsApp where I could observe our Toy Pom puppy playing. Door-step transport was smooth.",
     dogName: "Toy Pom",
     dogBreed: "Toy Pom",
     authorAvatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
@@ -319,8 +319,8 @@ export const FAQS: FAQItem[] = [
   },
   {
     category: "Adoption Process",
-    question: "Can I get live photos and video calls of the puppies?",
-    answer: "Yes. Once you connect with us on WhatsApp, we share live HD photos, video clips, and arrange real-time video calls so you can see the puppies playing.",
+    question: "Can I get photos and updates of the puppies?",
+    answer: "Yes. Once you connect with us on WhatsApp, we share HD photos and arrange direct consultations so you can see the puppies playing.",
   },
   {
     category: "Health & Verification",
@@ -330,6 +330,6 @@ export const FAQS: FAQItem[] = [
   {
     category: "Contact",
     question: "Can I contact you directly on WhatsApp?",
-    answer: "Yes! Connect directly with Ambey on WhatsApp at +91 76784 94050 for instant video tours and breed availability.",
+    answer: "Yes! Connect directly with Ambey on WhatsApp at +91 76784 94050 for instant updates and breed availability.",
   },
 ];

@@ -6,7 +6,7 @@ export function WhyChooseUs() {
     },
     {
       title: "Direct Communication",
-      description: "Talk to us directly on WhatsApp for fast answers, live video calls, and puppy photo updates.",
+      description: "Talk to us directly on WhatsApp for fast answers, breed guidance, and puppy photo updates.",
     },
     {
       title: "Clear Information",

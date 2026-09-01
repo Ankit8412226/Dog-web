@@ -30,7 +30,7 @@ export function FeaturedPuppies() {
             Explore Dog Breeds & Puppies
           </h2>
           <p className="text-stone-600 text-sm sm:text-base leading-relaxed font-sans">
-            Browse purebred puppy litters and get in touch directly on WhatsApp for photos and video calls.
+            Browse purebred puppy litters and get in touch directly on WhatsApp for photos and breed details.
           </p>
         </div>
 

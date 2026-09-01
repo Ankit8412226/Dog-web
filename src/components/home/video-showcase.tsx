@@ -11,7 +11,7 @@ export function VideoShowcase() {
             Observe Litter Health & Vitality in Motion
           </h2>
           <p className="text-stone-600 text-sm sm:text-base leading-relaxed font-sans">
-            We provide live HD video tours over WhatsApp so you can watch your puppy play, interact with littermates, and observe their healthy living environment before making a decision.
+            We provide comprehensive updates over WhatsApp so you can observe puppy health, litter interactions, and comfortable living environments before making a decision.
           </p>
         </div>
 

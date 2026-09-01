@@ -47,7 +47,7 @@ export function TrustSection() {
 
               <div>
                 <h4 className="font-semibold text-stone-950 text-sm mb-1">• Clear & Responsible Communication</h4>
-                <p className="text-stone-500 leading-relaxed">Direct WhatsApp updates, video calls, and responsive guidance throughout your adoption journey.</p>
+                <p className="text-stone-500 leading-relaxed">Direct WhatsApp updates, photo verification, and responsive guidance throughout your adoption journey.</p>
               </div>
             </div>
 

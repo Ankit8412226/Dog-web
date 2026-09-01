@@ -46,7 +46,7 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Right Photographic & Live Video Block */}
+          {/* Right Photographic & Media Block */}
           <div className="lg:col-span-7 relative">
             <div className="relative aspect-[4/3] sm:aspect-[16/11] w-full rounded-sm overflow-hidden bg-stone-950 shadow-md border border-stone-200">
               

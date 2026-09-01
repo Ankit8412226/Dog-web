@@ -56,7 +56,7 @@ export function Footer() {
             </h4>
             <div className="space-y-3 font-sans text-xs text-stone-700">
               <p className="font-semibold text-stone-900">+91 76784 94050</p>
-              <p>Message us anytime for quick photos, video calls, and puppy availability.</p>
+              <p>Message us anytime for quick photos, breed details, and puppy availability.</p>
               <a
                 href={whatsappUrl}
                 target="_blank"

@@ -13,7 +13,7 @@ export function HowItWorks() {
     {
       number: "03",
       title: "Get Complete Details",
-      description: "We'll help you with health records, photos, video calls, and next steps.",
+      description: "We'll help you with health records, photo updates, consultations, and next steps.",
     },
     {
       number: "04",
