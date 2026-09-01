@@ -30,6 +30,9 @@ export const metadata: Metadata = {
     locale: "en_IN",
     type: "website",
   },
+  verification: {
+    google: "u9n9P5lYrXiQi6H0yEDV5uiqQ1jzbarFpqISlU36mOc",
+  },
 };
 
 export default function RootLayout({
@@ -38,10 +41,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html
-      lang="en"
-      className="scroll-smooth h-full antialiased"
-    >
+    <html lang="en" className="scroll-smooth h-full antialiased">
       <body className="min-h-full flex flex-col bg-white text-stone-900 font-sans selection:bg-stone-900 selection:text-white">
         {children}
 
